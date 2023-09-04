@@ -63,14 +63,14 @@ export default function Home() {
           />
           <button
             onClick={spinRoulette}
-            className="px-6 py-2 mt-4 text-white bg-pink-700 rounded-md hover:bg-pink-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+            className="px-6 py-2 mt-4 text-white bg-pink-600 rounded-md hover:bg-pink-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
           >
             Spin the Roulette
           </button>
         </div>
 
         <div className="absolute top-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
-          <h1 className="text-6xl font-bold text-center text-indigo-900">
+          <h1 className="text-6xl font-bold text-center text-pink-700">
             {message}
           </h1>
         </div>
