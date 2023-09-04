@@ -70,7 +70,7 @@ export default function Home() {
         </div>
 
         <div className="absolute top-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
-          <h1 className="text-6xl font-bold text-center text-pink-700">
+          <h1 className="text-6xl font-bold text-center text-pink-600">
             {message}
           </h1>
         </div>
